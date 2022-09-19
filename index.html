@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fluxo de Caixa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <section class="select">
+            <select name="months" id="dropdown">
+                <option value="1" selected>Janeiro</option>
+                <option value="2">Fevereiro</option>
+                <option value="3">Março</option>
+                <option value="4">Abril</option>
+                <option value="5">Maio</option>
+                <option value="6">Junho</option>
+                <option value="7">Julho</option>
+                <option value="8">Agosto</option>
+                <option value="9">Setembro</option>
+                <option value="10">Outubro</option>
+                <option value="11">Novembro</option>
+                <option value="12">Dezembro</option>
+            </select>
+        </section>
+        <section class="input">
+            <input type="text" id="value" placeholder="Valor">
+            <button>Adicionar</button>
+        </section>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>Mês</td>
+                    <td>Valor</td>
+                </tr>
+            </thead>
+            <tbody id="table">
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td id="result"></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+   <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
